@@ -1,3 +1,9 @@
+
+
+body {
+  overflow: scroll;
+}
+
 #header {
   font-family: Verdana;
   font-size: 14px;
@@ -9,7 +15,6 @@
   border-bottom: 1px solid black;
   width: 100%;
   height: 80px;
-
 }
 
 .logo {
@@ -39,3 +44,37 @@
   display: inline-block;
   padding: 20px 10px;
  }
+
+div {
+  border: 1px solid black;
+
+}
+
+.content {
+  display: flex;
+}
+
+div .column {
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  margin-right: 32px;
+  flex-flow: column wrap;
+}
+
+.column.large {
+  flex:
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240 px;
+}
+
+/*Images--*/
